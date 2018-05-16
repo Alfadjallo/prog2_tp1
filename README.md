@@ -1,23 +1,18 @@
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-M2105/Syllabus/master/assets/logo.png" alt="class logo" class="logo"/> Introduction aux IHM en Java 
 
-### IUT d’Aix-Marseille – Département Informatique Aix-en-Provence
+### UFR sciences Aix Marseille Université – Licence Informatique
 
-* **Cours:** [M2105](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf)
-* **Responsable:** [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
-* **Enseignants:** [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr), [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
-* **Besoin d'aide ?**
-    * La page [Piazza de ce cours](https://piazza.com/univ-amu.fr/spring2017/m2105/home).
-    * Consulter et/ou créér des [issues](https://github.com/IUTInfoAix-M2105/tp1/issues).
-    * [Email](mailto:sebastien.nedjar@univ-amu.fr) pour une question d'ordre privée, ou pour convenir d'un rendez-vous physique.
+* **Cours:** Programmation 2
+* **Responsable:** [Arnaud LABOUREL](mailto:arnaud.labourel@univ-amu.fr)
+* **Enseignants:** 
 
-## TP 1 : Découverte de l'environnement de travail, des outils et premiers programmes en Java [![Build Status](https://travis-ci.org/IUTInfoAix-M2105/tp1.svg?branch=master)](https://travis-ci.org/IUTInfoAix-M2105/tp1)
+## TP 1 : Découverte de l'environnement de travail, des outils et premiers programmes en Java 
+[![Build Status](https://travis-ci.org/IUTInfoAix-M2105/tp1.svg?branch=master)](https://travis-ci.org/IUTInfoAix-M2105/tp1)
 
-L'objectif premier de ce TP est de vous familiariser avec tous les nouveaux outils qui seront mis en oeuvre pendant ce cours. En plus de la réalisation d'IHM, ces TP seront la première occasion de se confronter à la gestion de version, au test unitaire et à des outils de gestion de cycle de vie logiciel comme Maven.
-
+L'objectif premier de ce TP est de vous familiariser avec tous les nouveaux outils qui seront mis en oeuvre pendant ce cours. 
+Ces TP seront la première occasion de se confronter à la gestion de version, au test unitaire et à des outils de gestion de cycle de vie logiciel comme Maven.
 
 
 ### Découverte et prise en main de l'IDE
-
 
 Pendant les TP, les enseignants utiliseront comme environnement de développement intégré 
 **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** de chez **[JetBrains](https://www.jetbrains.com)**. Cet IDE 
@@ -37,7 +32,7 @@ les conditions d'utilisation et choisir un nom d'utilisateur et un mot de passe.
 informations dans un coin identifié de votre cerveau car c'est grâce à elle que vous pourrez importer votre licence 
 chez vous et dans les salles de TP.
 
-#### Création de votre fork du TP1
+#### Création de votre fork du TP 1
 
 Maintenant que vous connaissez les bases de Git, vous allez pouvoir commencer à travailler sur vos TP. Comme vous allez 
 le découvrir le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez 
@@ -45,7 +40,7 @@ donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le
 
 [https://classroom.github.com/assignment-invitations/be2e508aa8f5fd632d0a9f2c30e3aaba](https://classroom.github.com/assignment-invitations/be2e508aa8f5fd632d0a9f2c30e3aaba) 
 
-GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoAix-m2105/tp1' et s'appellant 'IUTInfoAix-m2105/tp1-votreUsername'. 
+GitHub va vous créer un dépôt contenant un fork du dépôt `L2InfoAMU/prog2_tp1` et s'appellant `L2InfoAMU/prog2_tp1-votreUsername`. 
 Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Sachez qu'un robot 
 récupérera automatiquement votre code après chaque *push* pour vérifier que les tests passent et calculer en même temps 
 votre taux d'accomplissement du TP.
@@ -558,7 +553,7 @@ En ceci :
 ```
 
 #### Travail à faire :
-- Ecrire la classe `MinesweeperBoard` qui pour un tableau d'entrée avec les mines vous permettent de calculer le tableau 
+- Écrire la classe `MinesweeperBoard` qui pour un tableau d'entrée avec les mines vous permettent de calculer le tableau 
 avec les nombres.
 
 Comme pour l'exercice précédent, vous devez activer les tests les un après les autres et soumettre votre solution après 
